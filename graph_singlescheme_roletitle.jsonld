@@ -1,0 +1,142 @@
+[
+  {
+    "@graph": [
+      {
+        "@id": "https://graph.cloud.seek.com.au/Test-Multi-Scheme/0",
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+        ],
+        "http://purl.org/dc/terms/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2017-02-16T11:49:26Z"
+          }
+        ],
+        "http://purl.org/dc/terms/creator": [
+          {
+            "@id": "https://graph.cloud.seek.com.au/user/knadiminti"
+          }
+        ],
+        "http://purl.org/dc/terms/title": [
+          {
+            "@language": "en",
+            "@value": "RoleTitle"
+          }
+        ],
+        "http://semantic-web.at/ontologies/csw.owl#hierarchyRoot": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#boolean",
+            "@value": "true"
+          }
+        ],
+        "http://semantic-web.at/ontologies/csw.owl#hierarchyRootType": [
+          {
+            "@id": "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+          }
+        ],
+        "http://www.w3.org/2000/01/rdf-schema#label": [
+          {
+            "@language": "en",
+            "@value": "RoleTitle"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+          {
+            "@id": "https://graph.cloud.seek.com.au/Test-Multi-Scheme/1"
+          },
+          {
+            "@id": "https://graph.cloud.seek.com.au/Test-Multi-Scheme/2"
+          },
+          {
+            "@id": "https://graph.cloud.seek.com.au/Test-Multi-Scheme/3"
+          }
+        ]
+      },
+      {
+        "@id": "https://graph.cloud.seek.com.au/Test-Multi-Scheme/1",
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2017-02-16T11:49:34Z"
+          }
+        ],
+        "http://purl.org/dc/terms/creator": [
+          {
+            "@id": "https://graph.cloud.seek.com.au/user/knadiminti"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@language": "en",
+            "@value": "Developer"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+          {
+            "@id": "https://graph.cloud.seek.com.au/Test-Multi-Scheme/0"
+          }
+        ]
+      },
+      {
+        "@id": "https://graph.cloud.seek.com.au/Test-Multi-Scheme/2",
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2017-02-16T11:49:43Z"
+          }
+        ],
+        "http://purl.org/dc/terms/creator": [
+          {
+            "@id": "https://graph.cloud.seek.com.au/user/knadiminti"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@language": "en",
+            "@value": "Tester"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+          {
+            "@id": "https://graph.cloud.seek.com.au/Test-Multi-Scheme/0"
+          }
+        ]
+      },
+      {
+        "@id": "https://graph.cloud.seek.com.au/Test-Multi-Scheme/3",
+        "@type": [
+          "http://www.w3.org/2004/02/skos/core#Concept"
+        ],
+        "http://purl.org/dc/terms/created": [
+          {
+            "@type": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "@value": "2017-02-16T11:49:51Z"
+          }
+        ],
+        "http://purl.org/dc/terms/creator": [
+          {
+            "@id": "https://graph.cloud.seek.com.au/user/knadiminti"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#prefLabel": [
+          {
+            "@language": "en",
+            "@value": "Business Analyst"
+          }
+        ],
+        "http://www.w3.org/2004/02/skos/core#topConceptOf": [
+          {
+            "@id": "https://graph.cloud.seek.com.au/Test-Multi-Scheme/0"
+          }
+        ]
+      }
+    ],
+    "@id": "https://graph.cloud.seek.com.au/Test-SingleScheme-RoleTitle/thesaurus"
+  }
+]

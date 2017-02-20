@@ -1,0 +1,233 @@
+[ {
+  "@graph" : [ {
+    "@id" : "http://graph.seek.com/seniority/Junior",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://purl.org/dc/terms/contributor" : [ {
+      "@id" : "https://graph.cloud.seek.com.au/user/jfrazier_admin"
+    } ],
+    "http://purl.org/dc/terms/created" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2016-11-17T02:51:38Z"
+    } ],
+    "http://purl.org/dc/terms/creator" : [ {
+      "@id" : "https://graph.cloud.seek.com.au/user/jfrazier_admin"
+    } ],
+    "http://purl.org/dc/terms/modified" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2016-11-17T02:51:38Z"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+      "@language" : "en",
+      "@value" : "Jnr"
+    }, {
+      "@language" : "en",
+      "@value" : "Jnr."
+    }, {
+      "@language" : "en",
+      "@value" : "Jr"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Junior"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "http://graph.seek.com/seniority/scheme"
+    } ]
+  }, {
+    "@id" : "http://graph.seek.com/seniority/Mid-Level",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://purl.org/dc/terms/contributor" : [ {
+      "@id" : "https://graph.cloud.seek.com.au/user/jfrazier_admin"
+    } ],
+    "http://purl.org/dc/terms/created" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2016-11-17T02:51:38Z"
+    } ],
+    "http://purl.org/dc/terms/creator" : [ {
+      "@id" : "https://graph.cloud.seek.com.au/user/jfrazier_admin"
+    } ],
+    "http://purl.org/dc/terms/modified" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2016-11-17T02:51:38Z"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+      "@language" : "en",
+      "@value" : "Mid-Level"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Mid Level"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "http://graph.seek.com/seniority/scheme"
+    } ]
+  }, {
+    "@id" : "http://graph.seek.com/seniority/Principal",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://purl.org/dc/terms/created" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2016-11-17T02:51:38Z"
+    } ],
+    "http://purl.org/dc/terms/creator" : [ {
+      "@id" : "https://graph.cloud.seek.com.au/user/jfrazier_admin"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Principal"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "http://graph.seek.com/seniority/scheme"
+    } ]
+  }, {
+    "@id" : "http://graph.seek.com/seniority/Senior",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://purl.org/dc/terms/contributor" : [ {
+      "@id" : "https://graph.cloud.seek.com.au/user/jfrazier_admin"
+    } ],
+    "http://purl.org/dc/terms/created" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2016-11-17T02:51:38Z"
+    } ],
+    "http://purl.org/dc/terms/creator" : [ {
+      "@id" : "https://graph.cloud.seek.com.au/user/jfrazier_admin"
+    } ],
+    "http://purl.org/dc/terms/modified" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2016-11-17T02:51:38Z"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#altLabel" : [ {
+      "@language" : "en",
+      "@value" : "Snr."
+    }, {
+      "@language" : "en",
+      "@value" : "Sr"
+    }, {
+      "@language" : "en",
+      "@value" : "Sr."
+    }, {
+      "@language" : "en",
+      "@value" : "Snr"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Senior"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "http://graph.seek.com/seniority/scheme"
+    } ]
+  }, {
+    "@id" : "http://graph.seek.com/seniority/scheme",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
+    "http://purl.org/dc/terms/created" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2016-11-17T02:51:22Z"
+    } ],
+    "http://purl.org/dc/terms/creator" : [ {
+      "@id" : "https://graph.cloud.seek.com.au/user/SEEK-Structured-Data"
+    } ],
+    "http://purl.org/dc/terms/publisher" : [ {
+      "@id" : "https://graph.cloud.seek.com.au/user/SEEK"
+    } ],
+    "http://purl.org/dc/terms/title" : [ {
+      "@language" : "en",
+      "@value" : "Seniority"
+    } ],
+    "http://semantic-web.at/ontologies/csw.owl#hierarchyRoot" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#boolean",
+      "@value" : "true"
+    } ],
+    "http://semantic-web.at/ontologies/csw.owl#hierarchyRootType" : [ {
+      "@id" : "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    } ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+      "@language" : "en",
+      "@value" : "Seniority"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+      "@id" : "http://graph.seek.com/seniority/Mid-Level"
+    }, {
+      "@id" : "http://graph.seek.com/seniority/Principal"
+    }, {
+      "@id" : "http://graph.seek.com/seniority/Senior"
+    }, {
+      "@id" : "http://graph.seek.com/seniority/Junior"
+    } ]
+  }, {
+    "@id" : "https://graph.cloud.seek.com.au/Test-Multi-Scheme/0",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#ConceptScheme" ],
+    "http://purl.org/dc/terms/created" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2017-02-16T11:49:26Z"
+    } ],
+    "http://purl.org/dc/terms/creator" : [ {
+      "@id" : "https://graph.cloud.seek.com.au/user/knadiminti"
+    } ],
+    "http://purl.org/dc/terms/title" : [ {
+      "@language" : "en",
+      "@value" : "RoleTitle"
+    } ],
+    "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+      "@language" : "en",
+      "@value" : "RoleTitle"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept" : [ {
+      "@id" : "https://graph.cloud.seek.com.au/Test-Multi-Scheme/1"
+    }, {
+      "@id" : "https://graph.cloud.seek.com.au/Test-Multi-Scheme/2"
+    }, {
+      "@id" : "https://graph.cloud.seek.com.au/Test-Multi-Scheme/3"
+    } ]
+  }, {
+    "@id" : "https://graph.cloud.seek.com.au/Test-Multi-Scheme/1",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://purl.org/dc/terms/created" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2017-02-16T11:49:34Z"
+    } ],
+    "http://purl.org/dc/terms/creator" : [ {
+      "@id" : "https://graph.cloud.seek.com.au/user/knadiminti"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Developer"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "https://graph.cloud.seek.com.au/Test-Multi-Scheme/0"
+    } ]
+  }, {
+    "@id" : "https://graph.cloud.seek.com.au/Test-Multi-Scheme/2",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://purl.org/dc/terms/created" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2017-02-16T11:49:43Z"
+    } ],
+    "http://purl.org/dc/terms/creator" : [ {
+      "@id" : "https://graph.cloud.seek.com.au/user/knadiminti"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Tester"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "https://graph.cloud.seek.com.au/Test-Multi-Scheme/0"
+    } ]
+  }, {
+    "@id" : "https://graph.cloud.seek.com.au/Test-Multi-Scheme/3",
+    "@type" : [ "http://www.w3.org/2004/02/skos/core#Concept" ],
+    "http://purl.org/dc/terms/created" : [ {
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+      "@value" : "2017-02-16T11:49:51Z"
+    } ],
+    "http://purl.org/dc/terms/creator" : [ {
+      "@id" : "https://graph.cloud.seek.com.au/user/knadiminti"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel" : [ {
+      "@language" : "en",
+      "@value" : "Business Analyst"
+    } ],
+    "http://www.w3.org/2004/02/skos/core#topConceptOf" : [ {
+      "@id" : "https://graph.cloud.seek.com.au/Test-Multi-Scheme/0"
+    } ]
+  } ],
+  "@id" : "https://graph.cloud.seek.com.au/Test-Multi-Scheme/thesaurus"
+} ]
